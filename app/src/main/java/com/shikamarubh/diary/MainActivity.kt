@@ -50,7 +50,7 @@ class MainActivity : ComponentActivity() {
     @RequiresApi(Build.VERSION_CODES.P)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        FirebaseApp.initializeApp(this)
+//        FirebaseApp.initializeApp(this)
         auth = Firebase.auth
         database = Firebase.database
         db = Firebase.firestore
